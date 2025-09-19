@@ -1,0 +1,57 @@
+.subscribe {
+  border: None;
+  margin-top: 20px;
+  padding: 15px 25px 15px 25px;
+  font-weight: bold;
+  background-color: black;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.subscribed {
+  color: white;
+  background-color: grey;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+  border-width: 2px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.rpsbutton {
+  border-radius: 100px;
+  background-color: transparent;
+  border-width: 2px;
+  border: 2px solid;
+  border-color: white;
+  margin-right: 10px;
+}
+
+.show-winner {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.reset-button {
+  font-size: 20px;
+}
+
+.img-choice {
+  width: 60px;
+}
