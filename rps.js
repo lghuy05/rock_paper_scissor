@@ -69,7 +69,7 @@ function humanChoice(choice) {
     }
   }
   function show_choice() {
-    document.querySelector('.choice-text').innerHTML = `You chose: ${choice} - Computer chose: ${computerMove} <br> Wins: ${score.wins} - Losses: ${score.losses} - Tie: ${score.tie}`;
+    document.querySelector('.choice-text').innerHTML = `You chose: <img class="img-choice" src="asset/${choice.toLowerCase()}.png"> - Computer chose: <img class="img-choice" src="asset/${computerMove.toLowerCase()}.png" <br> Wins: ${score.wins} - Losses: ${score.losses} - Tie: ${score.tie}`;
   }
   function computerChoice() {
     const randomnumber = Math.random();
@@ -87,7 +87,7 @@ function humanChoice(choice) {
   }
 }
 function show_choice() {
-  document.querySelector('.choice-text').innerHTML = `Wins: ${score.wins} - Losses: ${score.losses} - Tie: ${score.tie}`;
+  document.querySelector('.show-score').innerHTML = `Wins: ${score.wins} - Losses: ${score.losses} - Tie: ${score.tie}`;
 }
 function reset_score() {
   score.wins = 0;
